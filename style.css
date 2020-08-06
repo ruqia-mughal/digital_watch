@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:11% 3% !important;
+ 
+  
+  -webkit-box-reflect: below 3px linear-gradient(transparent,#fff);
+  outline: none;
+  border: none;
+
+
+}
+h1
+{
+      
+text-align: center;
+
+}
+
+.clock{
+    margin-top: 1px;
+  
+    font-family:  'Segoe UI', Ubuntu;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(128, 0, 107);
+
+    text-shadow: 0px 3px 5px rgba(99, 5, 60, 0.664) ;
+
+  
+   
+
+
+ 
+
+}
+#hours{
+    color: yellow;
+    font-size: 30px;
+
+   background: linear-gradient(to right,rgb(71, 200, 233),rgb(45, 132, 148),rgb(80, 100, 214));
+   border-top-right-radius: 12%;
+   border-bottom-left-radius: 12%;
+
+  border: none;
+  outline: none;
+  padding:30px ;
+
+   
+}
+#minutes{
+    background: linear-gradient(to right,rgb(218, 125, 218),rgb(171, 43, 194),rgb(170, 11, 149));
+    font-size: 30px;
+   border-top-right-radius: 12%;
+   border-bottom-left-radius: 12%;
+
+  border: none;
+  outline: none;
+  color: whitesmoke;
+  padding:32px ;
+}
+#seconds{
+    background: linear-gradient(to right,rgb(125, 218, 161),rgb(43, 194, 124),rgb(16, 145, 91));
+    font-size: 30px;
+    border: none;
+    outline: none;
+    color: rgba(187, 22, 151, 0.974);
+   border-top-right-radius: 12%;
+   border-bottom-left-radius: 12%;
+ 
+  padding:30px ;
+}
+.div1{
+
+
+    padding: 1px;
+    margin:10px;
+
+   
+}
+span{
+    display: flex;
+    flex-direction: row;
+    padding:13px;
+  
+    border: none;
+    outline: none;;
+    border-bottom-right-radius: 23px;
+   color: rgb(119, 55, 87);
+ 
+    background: linear-gradient(to right,rgb(251, 254, 255),rgb(234, 213, 241),rgb(240, 193, 233));
+    font-size: 20px;
+    
+ 
+}
+@media only screen and (max-width:440){
+   .clock{
+       font-size: 1px ;
+   }
+}
